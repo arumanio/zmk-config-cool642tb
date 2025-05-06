@@ -42,6 +42,12 @@
             timeout-ms = <0>;
             layers = <2>;
         };
+
+        MB3 {
+            bindings = <&mkp MB3>;
+            key-positions = <32 31>;
+            layers = <4>;
+        };
     };
 
     macros {
